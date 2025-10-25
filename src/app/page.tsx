@@ -273,7 +273,7 @@ async function handleFileUpload(e: React.ChangeEvent<HTMLInputElement>) {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="h-5 w-5 rotate-[-45deg]"
+        className="h-5 w-5 rotate-[-180deg]"
       >
         <path d="M2.25 12l19.5-9-3.75 9 3.75 9-19.5-9z" />
       </svg>

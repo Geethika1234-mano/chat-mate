@@ -15,7 +15,7 @@ export default function ChatBubble({
   pulse?: boolean;
 }) {
   const isUser = role === "user";
-
+ console.log("user")
   return (
     <div className={`flex items-start gap-3 ${isUser ? "justify-end" : "justify-start"}`}>
       {!isUser && (
@@ -60,3 +60,4 @@ export default function ChatBubble({
     </div>
   );
 }
+
